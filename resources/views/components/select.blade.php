@@ -1,3 +1,6 @@
+@php
+    use Illuminate\Support\Str;
+@endphp
 @props([
     'id' => 'select-'.Str::random(),
     'label',
